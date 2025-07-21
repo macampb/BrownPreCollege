@@ -1,5 +1,6 @@
 # IMDB.repo
 Sentiment Classification - Internet Movie Database for training. 
+
 This code was used in a Sentiment Classification Competition. 
 Only the IMDB datasets were allowed to be used in training with no pre-trained models allowed. 
 
