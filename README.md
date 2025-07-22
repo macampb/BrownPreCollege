@@ -36,7 +36,7 @@ AI_Securely/
 │   ├── strength_model.h5   # Trained LSTM model
 │   ├── tokenizer.json      # Tokenizer for password encoding
 ├── data/
-│   └── rockyou.txt         # Dataset for model training
+│   └── rockyou.txt      
 ├── train_strength_model.py # Model training script'
 ├── test_api.py               # Script to test API endpoints
 └── README.md
