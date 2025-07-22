@@ -1,2 +1,2 @@
 # AITextSummarizer
-AI bot that summarizes text and provides notes on what it deems as important details. 
+AI Text Summarizer for up to 250 characters [can be adjusted]; Also takes bulleted notes. 
