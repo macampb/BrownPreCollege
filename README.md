@@ -20,14 +20,6 @@ A Python-based AI Text Summarizer and Note Taker built using TensorFlow and Hugg
 
 ---
 
-## Project Structure
-FinalProject/
-│
-├── AI_Summarizer_Local.py # Main script (with progress bars)
-└── README.md 
-
----
-
 ## Installation
 1. Clone the repository or download the script.
 2. Create and activate a virtual environment:
@@ -39,13 +31,13 @@ FinalProject/
 
 ---
 ## How to Run 
-python3 AI_Summarizer_Local.py
-Then: Paste the text you want to summarize when prompted.
+- python3 AI_Summarizer_Local.py
+- Then: Paste the text you want to summarize when prompted.
 
 ---
 ## Author 
-Developed by: Mikhala Campbell, ChatGPT
-Course: Making AI with AI
-Instructor: Samuel Musker 
+- Developed by: Mikhala Campbell, ChatGPT
+- Course: Making AI with AI
+- Instructor: Samuel Musker 
 
 
