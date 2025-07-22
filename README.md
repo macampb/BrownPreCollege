@@ -1,9 +1,9 @@
 ```t 
-# AI Securely - AI-Powered password Strength Checker & Generator 
+# Securely AI - AI-Powered password Strength Checker & Generator 
 
 
 ## Overview 
-AI Securely is an AI-powered tool that:
+Securely AI is an AI-powered tool that:
 - Evaluates password strength using a trained LSTM model. 
 - Checks if a password has been compromised in data breaches via HaveIBeenPwned API. 
 - Generates personalized strong passwords based on user input for easy memorization. 
