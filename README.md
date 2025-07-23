@@ -14,8 +14,13 @@ Securely AI is an AI-powered tool that:
 ## Features 
 - AI Strength Prediction: Weak, Medium, Strong
 - Breach Checks: Uses HaveIBeenPwned API [secure k-anonymity method/ privacy technique]
-- Smart Personalized Password Generator 
+- Smart Personalized Password Generator
+    - Customizable with user inputs
+    - Advanced Mode for extra randomization and enhanced security
 - Flask REST API for integration into apps or browsers
+- Real-time password feedback + Security checklist
+- Password history (last 3 generated passwords)
+- Light/Dark theme toggle
 
 ---
 ## Tech Stack 
@@ -23,6 +28,7 @@ Securely AI is an AI-powered tool that:
 - Framework: Flask
 - AI Model: TensorFlow (LSTM-based model)
 - Libraries: 'tensorflow', 'flask', 'requests', 'numpy'
+- Frontend: HTML, CSS, JavaScript
 ---
 
 ## Project Structure 
@@ -32,6 +38,8 @@ AI_Securely/
 │   ├── strength_checker.py # Password strength prediction
 │   ├── generator.py        # Personalized password generator
 │   ├── breach_checker.py   # Breach check using HIBP API
+|   └── templates/
+│       └── index.html      # Modern UI
 ├── models/
 │   ├── strength_model.h5   # Trained LSTM model
 │   ├── tokenizer.json      # Tokenizer for password encoding
@@ -45,7 +53,6 @@ AI_Securely/
 ## Setup Instructions 
 
 ### 1. Clone the Repository
-git clone <your-repo-url>
 cd AI_Securely 
 
 ### 2. Create Virtual Environment & Activate 
@@ -91,17 +98,7 @@ python app/main.py
 ----
 
 # How to Test 
-You can test using: 
-- **cURL Commands:** 
-curl -X POST http://127.0.0.1:5000/check_strength \
--H "Content-Type: application/json" \
--d '{"password":"Blu3P@nda2025"}'
-
-curl -X POST http://127.0.0.1:5000/generate_password \
--H "Content-Type: application/json" \
--d '{"color":"blue","animal":"panda","year":"2031","symbol":"@"}'
-
-- **Or Python Script:**
+Using Python Script:**
 import requests
 
 # Test strength check
@@ -117,4 +114,5 @@ print(response.json())
 # Author 
 Developed by: Mikhala Campbell, ChatGPT
 Course: Making AI with AI
-Instructor: Samuel Musker 
+Instructor: Samuel Musker
+© 2025 | M.C
