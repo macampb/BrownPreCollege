@@ -61,7 +61,7 @@ source .venv/bin/activate   # macOS/Linux
 .venv\Scripts\activate      # Windows
 
 ### 3. Install Requirements 
-pip install -r requirements.txt 
+pip install 
 
 ### 4. Run the Flask API
 cd AI_Securely
