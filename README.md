@@ -67,49 +67,6 @@ pip install -r requirements.txt
 cd AI_Securely
 python app/main.py
 - SERVER STARTS AT: http://127.0.0.1:5000
-
----
-# API Endpoints 
-
-## Check Password Strength + Breach 
-**Input:**
-{
-    "password": "Blu3P@nda2023"
-}
-**Output**: {
-    "password": "Blu3P@nda2025",
-    "strength": "Strong",
-    "breached": false
-}
-
-## Generate Personalized Password 
-**Input:**
-{
-  "color": "blue",
-  "animal": "panda",
-  "year": "2031",
-  "symbol": "@"
-}
-**Output:**
-{
-  "generated_password": "BluePanda2031@X9"
-}
-
-----
-
-# How to Test 
-Using Python Script:**
-import requests
-
-# Test strength check
-response = requests.post("http://127.0.0.1:5000/check_strength", json={"password": "Blu3P@nda2025"})
-print(response.json())
-
-# Test personalized password generator
-answers = {"color": "blue", "animal": "panda", "year": "2031", "symbol": "@"}
-response = requests.post("http://127.0.0.1:5000/generate_password", json=answers)
-print(response.json())
-
 ----
 # Author 
 Developed by: Mikhala Campbell, ChatGPT
